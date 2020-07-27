@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@media(max-width: 900px) {
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+    margin-right: 4px;
+  }
+  nav #brand {
+    margin-left: 10px;
+  }
+  #resize ul li a {
+    font-size: 15px;
+    font-family: "Poppins" !important;
+    font-weight: lighter !important;
+    color: rgb(156, 156, 156) !important;
+    transition: all 500ms ease-out;
+  }
+  nav #menu {
+    display: none;
+  }
+}
+@media(min-width: 900px) {
+      #resize {
+            visibility: hidden !important;
+      }
+}
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 411px) {
+  .section-0 .mainslider .maintext {
+    margin: auto 10%;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: rgb(0,0,0,0.1);
+    bottom: 0;
+  }
+  .maintext h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin: 0.4rem;
+    font-size: 3.5rem;
+    padding-top: 10%;
+  }
+  .mainslider #layer0 {
+    left: -345%;
+  }
+  .mainslider #layer1 {
+    left: -345%;
+  }
+  .mainslider #layer2 {
+    left: -345%;
+  }
+  .mainslider #layer3 {
+    left: -345%;
+  }
+  .mainslider #layer4 {
+    left: -345%;
+  }
+  .mainslider #layer5 {
+    left: -345%;
+  }
+  .mainslider #layer6 {
+    left: -345%;
+  }
+  .section-2 {
+  margin-top: 10px;
+}
+.section-2 .col-lg-4 {
+  padding: 50px;
+}
+.pieContainer {
+  height: 160px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pieBackground {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 8px rgba(0,0,0,1);
+}     
+.pie {
+  transition: all 1s;
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  clip: rect(0px, 80px, 180px, 0px);
+}
+.hold {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  clip: rect(0px, 180px, 180px, 80px);    
+}
+#pieSlice1 .pie {
+  border: 10px solid #93B9B1;
+}
+#pieSlice2 .pie {
+  border: 10px solid #B2E3D9;
+}
+#pieSlice3 .pie {
+  border: 10px solid #FBD24F;
+}
+#pieSlice4 .pie {
+  border: 10px solid #F07B58;
+}
+#pieSlice5 .pie {
+  border: 10px solid #7FB0A6;
+}
+}
